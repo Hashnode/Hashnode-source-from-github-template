@@ -11,6 +11,7 @@ If you don't find a log in your publication dashboard on Hashnode, but have made
 *   Frontmatter: Make sure each article has these details at the top of the file.
     
 ```
+---
 title: YOUR_TITLE_HERE **(Required)**
 subtitle: YOUR_SUBTITLE_HERE
 /* The pathname of your article url 
@@ -29,6 +30,7 @@ publishAs: USERNAME_OF_AUTHOR_OF_ARTICLE
 canonical: CANONICAL_URL_OF_ARTICLE 
 /* Only if you don't want this article to be published yet */ 
 ignorePost: true
+---
 
 Enter article body here
 ```        
