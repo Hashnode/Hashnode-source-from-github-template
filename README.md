@@ -18,7 +18,7 @@ subtitle: YOUR_SUBTITLE_HERE
  * Ex. In https://engineering.hashnode.com/how-we-autodetect-spam-using-googles-vertex-ai 
    "how-we-autodetect-spam-using-googles-vertex-ai" is the slug */ 
 slug: CUSTOM_ARTICLE_SLUG_HERE (Will be created automatically if not provided)
-tags: TAG_SLUG_1, TAG_SLUG_2 **(Required)** - You can find the list of tags <a href="https://github.com/Hashnode/support/blob/main/misc/tags.json" className="font-bold text-brand-blue"  target="_blank">here</a>
+tags: TAG_SLUG_1, TAG_SLUG_2 **(Required)** - You can find the list of tags here https://github.com/Hashnode/support/blob/main/misc/tags.json
 /* You need to upload your image to https://hashnode.com/uploader 
 and use the uploaded image URL as COVER_IMAGE_URL */ 
 cover: COVER_IMAGE_URL
@@ -34,7 +34,7 @@ ignorePost: true
 
 Enter article body here
 ```        
-    
+*   List of tags can be found here https://github.com/Hashnode/support/blob/main/misc/tags.json
 *   Make sure you haven't included **ignorePost** in the frontmatter by mistake.
 *   Uninstalling app via Github will remove it from all the publications that the repo was connected to. If you want to specifically remove the installation from a particular publication, do it from it's Dashboard (Integrations section).
 *   Creating an article with same slug as another article in the publication will overwrite the old article.
