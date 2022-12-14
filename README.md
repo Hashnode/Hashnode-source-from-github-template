@@ -26,10 +26,12 @@ domain: YOUR_HASHNODE_BLOG_DOMAIN_NAME_HERE (e.g. sandeep.dev or sandeep.hashnod
 /* When you have a team publication and a publication member has created an article */ 
 /* Please note that this param is only supported while creating an article and not updating */ 
 publishAs: USERNAME_OF_AUTHOR_OF_ARTICLE 
-/* When your article is republished and you want to use  the origin url as canonical url */ <br/>
+/* When your article is republished and you want to use  the origin url as canonical url */ 
 canonical: CANONICAL_URL_OF_ARTICLE 
 /* Only if you don't want this article to be published yet */ 
-ignorePost: true
+ignorePost: Boolean (default: false)
+/* If you want to post it only on your blog and hide it from Hashnode community feed */
+hideFromHashnodeCommunity: Boolean (default: false)
 ---
 
 Enter article body here
